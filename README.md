@@ -13,7 +13,7 @@ During inference (top), the process is straightforward: egocentric video frames 
 During training (bottom), we add gaze regularization: we convert human gaze heatmaps into spatial distributions and align the model's internal attention patterns with these human attention maps using a KL-divergence loss. This teaches the model to "look where humans look" without changing its architecture.
 The key advantage is that once trained, our model operates like any standard vision-language model—it doesn't require gaze input during deployment yet produces more human-like and grounded visual understanding for egocentric tasks
 
-The link to the paper (through ArXiv) will be uploaded soon.....
+For more information about our work, here's a link to our paper: https://arxiv.org/abs/2510.21356
 
 
 
